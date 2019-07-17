@@ -1,0 +1,14 @@
+Merger Sort - 2 phan
+Binary Search - 1 Phan - Khu de quy
+bai toan so mu
+Fibonacci words - chia lech 13 / 7
+13 = 5 8
+8 / 2
+8 = 3 5
+3 / 2
+3 = 1 2
+2 / 1
+2 = 1 1
+1/1 
+
+			
