@@ -1,0 +1,44 @@
+define
+a 0
+b 1
+c 2
+d 3
+e 4
+f 5
+g 6
+h 7
+j 8
+k 9
+l 10
+m 11
+n 12
+o 13
+p 14
+q 15
+r 16
+s 17
+t 18
+u 19
+v 20
+w 21
+x 22
+y 23
+z 24
+
+c+d*e-a*(x+z)
+-> Compiler: c d e * + a x z + * - (polish)
+-> Execution: 14
+
+Java Blue environment
+Java / JDK 
+
+(a+b)/c = ?
+two phases technique
+- Compiler -> polish form Lukasievic: a+b -> a b +
+- Execution 
+clean room technique
+
+BVN: c+d!*e<-d>*(x+z) -> ??? = -180
+! > <
+if(divide 0) System.out.println("\n: ERROR: divide by zero."); exit(3);
+tao file word chia cac method de tim kiem.

@@ -1,0 +1,75 @@
+Cau truc chuong trinh java
+- Dat moi truong:
+	import java.io.*;
+	import java.Util.*;
+
+Chuong trinh thuong gom 2 class: 
+
+- public  class Test {
+	public static void main (String [] args) {
+	
+	} // main
+} // class Test
+
+class Exercise {
+
+}
+
+Trat tu uu tien cac phep toan:
+funtion () ! */ +-
+//	vi du: 4 + 2 mu 5 -3! - (sin180 + b*c)
+
+//	a+b infix
+//	a b + posfix
+//	n!
+//	can bac 2 prefix
+//	++ x prefix
+//	x -- posfix
+-> Luu y khi cai dat cac phep toan trong execution
+Compiler - variable: -> polish  
+	 - operation: ?
+	(:	?
+	):	?
+
+-> Polish form: a b c * x y z t + * + / -
+-> Stack:       empty
+
+
+
+
+
+Word: 
+Algorithm compiler
+Fution: Chuyen bieu thuc ex sang dang Polish
+input: String ex
+ouput: String polish
+
+Method
+
+
+
+
+(x+m*b!) + (a-(b*c/d)!)
+polish form: 
+xmb!*+abc*d/!-+
+xmb!*+abc*d/!-+
+stack: empty. Done
+
+Execution:
+
+23 12 1 ! + 0 1 2 * 3 / ! - +
+35 -1 = 34
+0! = 1
+
+Check ERROR
+
+them thua toan tu vao polish
+bien dai, chu so int, float, La Ma
+bd + MMXIX - 0.34 + 18,35
+4 + 2019 - 0.34 + 18,35
+
+"-(-d*(-e))"		// out of stack array
+-(-3*-4) = -12
+-> d ~ m e - * ~.
+~ : Doi dau
+dau tru : Phep toan 1 ngoi != hai ngoi -> Them 1 phep toan doi dau ~
